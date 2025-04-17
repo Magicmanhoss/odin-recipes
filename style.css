@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+}
+h1 {
+    color: blueviolet;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+} 
+li {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.food {
+    background-color: aqua;
+}
