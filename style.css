@@ -1,5 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 * {
     background-color: black;
+    margin: 10px;
+    padding: 0px;
 }
 h1 {
     color: blueviolet;
@@ -13,11 +20,14 @@ li {
 }
 .food {
     background-color: #598397;
-    border: 1mm cornflowerblue;
+    border: 5px inset rgb(235, 235, 235);
     font-size: 35px;
+    padding: 3px;
     
 }
 .pic {
     height: auto;
     width: 300px;
+    border: 3px outset white;
+    margin: 20px 20px;
 }
