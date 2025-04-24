@@ -6,13 +6,72 @@
 * {
     background-color: gray;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 10px 0;
 }
 h1 {
     text-align: center;
     font-size: 50px;
+    border: 5px dashed black;
+    margin-bottom: 20px;
+    margin-left: 0;
+    text-decoration: underline;
+}
+img {
+    border: 5px outset black;
+    margin: 20px 20px;
+    padding: 0;
+}
+h2 {
+    border: 3px dotted black;
+    width: 200px;
+    margin: 10px 30px 20px 30px;
+    padding-left: 35px;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+p {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 800px;
+    color: white;
+
+}
+li {
+    margin-left: 22px;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
+ul {
+    border: 3px groove black;
+    width: 350px;
+    margin: 20px 30px;
+    background-color: #9e9e9e;
+}
+ol {
+    border: 3px groove black;
+    width: 1000px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    background-color: #9e9e99;
 }
 .home {
-    border: solid 2px black;
+    border: solid 3px black;
     background-color: rgb(18, 202, 64);
+    margin: 10px 10px;
+    padding: 10px;
+    display: block;
+    width: 70px;
+}
+.box {
+    padding-left: 70px;
+}
+.ingredients {
+   background-color: #9e9e9e;
+  
+}
+.steps {
+    background-color: #9e9e9e;
 }
